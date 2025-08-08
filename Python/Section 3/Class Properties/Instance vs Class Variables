@@ -1,0 +1,72 @@
+Instance vs Class Variables
+
+Instance variables are unique to each object, while class variables are shared by all objects of the same class.
+Here is an example of a class with both types of variables
+
+class Student:
+    # Class variable - shared by all instances
+    school = "Python High School"
+    
+    def __init__(self, name, grade):
+        # Instance variables - unique to each student
+        self.name = name
+        self.grade = grade
+
+Create student objects:
+
+alice = Student("Alice", "A")
+bob = Student("Bob", "B")
+
+Access instance variables (unique to each object):
+
+print(alice.name)  # Alice
+print(bob.name)    # Bob
+print(alice.grade) # A
+print(bob.grade)   # B
+
+Access class variables (shared by all objects):
+
+print(alice.school)     # Python High School
+print(bob.school)       # Python High School
+print(Student.school)   # Python High School
+
+Now change the class variable:
+
+Student.school = "Python Academy"
+
+Check how the change affects all instances:
+
+print(alice.school)   # Python Academy
+print(bob.school)     # Python Academy
+
+Output:
+
+Alice
+Bob
+A
+B
+Python High School
+Python High School
+Python High School
+Python Academy
+Python Academy
+
+You can also create instance variables after object creation:
+
+alice.age = 16  # This creates an instance variable
+print(alice.age)  # 16
+# print(bob.age)  # This would cause an error - bob doesn't have age
+
+Key Difference: Instance variables (created with self.variable_name) are unique to each object, while class variables (defined directly in the class) are shared by all objects. Changing a class variable affects all instances.
+
+Challenge
+Easy
+
+Complete a banking system.. You'll define a BankAccount class in one file and use it in another.
+
+You'll work with:
+
+    bank_account.py: Define the BankAccount class with attributes and methods
+    driver.py: Import the class, create accounts, and demonstrate class variables
+
+Follow the TODO comments in both files for step-by-step instructions. The comments will guide you through creating the class with proper variables, methods, and showing how class variables affect all instances.
