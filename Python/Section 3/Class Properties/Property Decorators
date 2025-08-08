@@ -1,0 +1,36 @@
+from temperature import Temperature
+
+# Test the class:
+# 1. Create a temperature instance at 25°C
+temp = Temperature(25)
+
+# 2. Print both Celsius and Fahrenheit
+print(f"{temp.celsius}°C is {temp.fahrenheit}°F")
+
+# 3. Set the temperature to 98.6°F
+temp.fahrenheit = 98.6
+
+# 4. Print both values again
+print(f"{temp.celsius}°C is {temp.fahrenheit}°F")
+
+# 5. Try setting an invalid temperature (should show error)
+# temp.celsius = -300
+
+-------------------
+from temperature import Temperature
+
+# Test the class:
+# 1. Create a temperature instance at 25°C
+temp = Temperature(25)
+
+# 2. Print both Celsius and Fahrenheit
+print(f"{temp.celsius}°C is {temp.fahrenheit}°F")
+
+# 3. Set the temperature to 98.6°F
+temp.fahrenheit = 98.6
+
+# 4. Print both values again
+print(f"{temp.celsius}°C is {temp.fahrenheit}°F")
+
+# 5. Try setting an invalid temperature (should show error)
+# temp.celsius = -300
