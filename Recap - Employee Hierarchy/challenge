@@ -1,0 +1,17 @@
+Recap - Employee Hierarchy
+
+Challenge
+Hard
+
+In this challenge, you'll implement an employee hierarchy system.
+
+You'll need to complete the following files:
+
+    person.py: Implement the base Person class with name, age, and introduction method
+    employee.py: Create Employee class inheriting from Person with employee_id and salary
+    manager.py: Implement Manager class extending Employee with department management
+    engineer.py: Build Engineer class extending Employee with programming skills
+    technical_manager.py: Create TechnicalManager using multiple inheritance
+    hierarchy_utils.py: Implement utility function to display class hierarchies
+
+Each file contains detailed TODO comments guiding you through the implementation.
