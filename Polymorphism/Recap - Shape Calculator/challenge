@@ -1,0 +1,12 @@
+In this challenge, you'll implement a shape calculator system that demonstrates polymorphism.
+
+Implement the required classes in the following files (look for TODO comments in each file):
+
+    shape.py - Define the abstract Shape base class
+    circle.py - Implement the Circle class
+    rectangle.py - Implement the Rectangle class
+    triangle.py - Implement the Triangle class
+    unknownshape.py - Create a non-derived class demonstrating duck typing
+    shapecalculator.py - Implement the calculator functionality
+
+Follow the TODO comments in each file for step-by-step guidance. The comprehensive test suite will help you understand the expected behavior and ensure your implementation handles all requirements correctly.
