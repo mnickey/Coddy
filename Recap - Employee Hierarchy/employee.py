@@ -16,6 +16,9 @@ class Employee(Person):
         # TODO: Format: parent's introduction + " I work with employee ID [employee_id]."
         parent_intro = super().introduce()
         return f"{parent_intro} I work with employee ID {self.employee_id}."
+
+        # Simpler version of what I wrote
+        # return super().introduce() + f" I work with employee ID {self.employee_id}."
     
     def calculate_paycheck(self):
         # TODO: Calculate and return the monthly salary (salary ÷ 12)
