@@ -1,0 +1,10 @@
+In this challenge, you'll implement a media player system with interfaces.
+
+You need to edit the following files:
+
+    playable.py - Implement the abstract base classes (interfaces)
+    song.py - Implement the Song class
+    video.py - Implement the Video class
+    mediaplayer.py - Implement the MediaPlayer class
+
+Each file contains detailed TODO comments to guide your implementation. Follow these comments to create a complete media player system with proper inheritance and interface implementation.
