@@ -5,6 +5,7 @@ from employee import Employee
 class Manager(Employee):
     def __init__(self, name, age, employee_id, salary, department):
         # TODO: Call the parent class constructor with name, age, employee_id, and salary
+        super().__init__(name, age, employee_id, salary)
         # TODO: Store department as an instance attribute
         self.department = department
     
