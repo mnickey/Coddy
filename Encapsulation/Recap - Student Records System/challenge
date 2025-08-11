@@ -1,0 +1,16 @@
+Challenge
+Medium
+
+In this challenge, you'll implement a complete student records management system.
+
+You need to edit two files to complete this challenge:
+
+    student.py - Implement the Student class with proper encapsulation
+    studentregistry.py - Implement the StudentRegistry class to manage students
+
+Follow the detailed TODO comments in each file for step-by-step guidance. Your implementation will be tested against comprehensive test cases that verify:
+
+    Proper attribute validation and error handling
+    Correct calculation of grade averages
+    Registry functionality with various student scenarios
+    Boundary conditions and edge cases
