@@ -1,0 +1,8 @@
+In this challenge, you'll implement a FileManager class that demonstrates Python's access modifiers (public, protected, and private) while experiencing the benefits of comprehensive testing.
+
+Edit filemanager.py to implement the FileManager class following the TODO comments. The file contains detailed instructions for implementing:
+
+    Public methods for file operations
+    Protected methods (with single underscore prefix)
+    Private methods (with double underscore prefix)
+    Method interactions demonstrating encapsulation
