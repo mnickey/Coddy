@@ -1,0 +1,10 @@
+In this challenge, you'll implement a secure messaging system with comprehensive testing to validate your solution.
+
+You need to edit securemessenger.py to implement the SecureMessenger class following information hiding principles. The file contains detailed TODO comments to guide your implementation.
+
+Key requirements include:
+
+    Proper encapsulation of credentials and messages
+    Authentication before allowing message operations
+    Security monitoring through login attempt tracking
+    Precise return messages as specified in the TODOs
