@@ -14,7 +14,7 @@ class Rectangle:
     @property
     def width(self):
         # TODO: Return the private _width attribute
-        pass
+        return self._width
     
     # TODO: Implement width property setter
     @width.setter
@@ -22,13 +22,15 @@ class Rectangle:
         # TODO: Validate that value is positive (greater than 0)
         # TODO: If value is not positive, raise ValueError with message "Width must be positive"
         # TODO: If value is valid, set the _width attribute
-        pass
+        if value <= 0:
+            raise ValueError("Width must be positive")
+        self._width = value
     
     # TODO: Implement height property getter
     @property
     def height(self):
         # TODO: Return the private _height attribute
-        pass
+        return self._height
     
     # TODO: Implement height property setter
     @height.setter
@@ -36,36 +38,39 @@ class Rectangle:
         # TODO: Validate that value is positive (greater than 0)
         # TODO: If value is not positive, raise ValueError with message "Height must be positive"
         # TODO: If value is valid, set the _height attribute
-        pass
+        if value <= 0:
+            raise ValueError("Height must be positive")
+        self._height = value
     
     # TODO: Implement read-only area property
     @property
     def area(self):
         # TODO: Calculate and return the area (width * height)
-        pass
+        return (self.width * self.height)
     
     # TODO: Implement read-only perimeter property
     @property
     def perimeter(self):
         # TODO: Calculate and return the perimeter (2 * (width + height))
-        pass
+        return (2 * (self.width + self.height))
     
     # TODO: Implement dimensions property getter
     @property
     def dimensions(self):
         # TODO: Return width and height as a tuple (width, height)
-        pass
+        return (self.width, self.height)
     
     # TODO: Implement dimensions property setter
     @dimensions.setter
     def dimensions(self, dimensions):
         # TODO: Unpack the tuple into width and height
         # TODO: Use the width and height setters to update values (for validation)
-        pass
+        self.width, self.height = dimensions
     
     # TODO: Implement dimensions property deleter
     @dimensions.deleter
     def dimensions(self):
         # TODO: Reset both width and height to 1
         # TODO: Use the property setters to ensure validation
-        pass
+        self.width = 1
+        self.height = 1
