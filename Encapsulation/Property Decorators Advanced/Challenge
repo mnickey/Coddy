@@ -1,0 +1,13 @@
+Challenge
+Medium
+
+In this challenge, you'll implement a Rectangle class with proper encapsulation and property validation.
+
+    rectangle.py - This is the file you need to edit, containing TODO comments to guide your implementation
+    driver.py - Contains extensive test scenarios (do not modify)
+
+    Implement private attributes for _width and _height
+    Create properties for width and height with validation (must be positive)
+        Raise appropriate ValueError messages as specified in the TODOs
+    Implement read-only properties for area and perimeter
+    Create a dimensions property with getter, setter, and deleter functionality as described in the TODOs
