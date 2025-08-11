@@ -1,0 +1,10 @@
+Challenge
+Medium
+
+In this challenge, you'll implement a BankAccount class that demonstrates proper use of public, protected, and private access levels in Python.
+
+    bankaccount.py - Contains the class definition with TODO comments guiding your implementation
+
+    Follow the TODO comments in bankaccount.py to implement the required functionality
+    Implement proper access levels (public, protected, private) as specified
+    Ensure all methods handle edge cases appropriately (negative deposits, etc.)
