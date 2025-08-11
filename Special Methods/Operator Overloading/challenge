@@ -1,0 +1,12 @@
+In this challenge, you'll implement a Money class that represents monetary amounts with robust operator overloading. Your implementation will be thoroughly tested against a comprehensive test suite.
+
+    money.py - This is the only file you need to edit. It contains the class definition with TODO comments guiding your implementation.
+    driver.py - Contains extensive test scenarios that validate your implementation (do not modify).
+
+Implement the Money class with the following features:
+
+    Constructor that takes amount (float) and currency (string)
+    Addition (+) of Money objects with the same currency
+    Multiplication (*) by a number to scale the amount
+    Equality comparison (==) between Money objects
+    String representation in the format “X.XX CUR”
