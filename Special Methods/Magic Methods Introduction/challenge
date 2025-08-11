@@ -1,0 +1,6 @@
+In this challenge, you'll implement a Counter class with magic methods.
+
+    counter.py - This is the file you need to edit, containing TODO comments to guide your implementation
+    driver.py - Contains extensive test cases
+
+Implement the Counter class in counter.py and test cases in driver.py following the TODO comments. The class should support initialization with optional values, string representation, and addition operations.
