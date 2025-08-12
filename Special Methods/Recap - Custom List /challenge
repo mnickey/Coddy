@@ -1,0 +1,16 @@
+Challenge
+Medium
+
+In this challenge, you'll implement a fully functional CustomList class that mimics Python's built-in list behavior while demonstrating your understanding of special methods.
+
+Edit only the customlist.py file following the TODO comments that guide your implementation step-by-step.
+
+Your implementation should support:
+
+    Initialization with optional items
+    Indexing (getting/setting values)
+    Length checking with len()
+    Addition with other lists
+    String representation
+    Iteration and contains checks
+    Methods: append, pop, and clear
