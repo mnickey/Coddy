@@ -1,0 +1,14 @@
+Challenge
+Medium
+
+In this challenge, you'll implement a Deck class that simulates a deck of playing cards with comprehensive functionality and proper Python conventions.
+
+You only need to edit the deck.py file. Follow the TODO comments in the code which guide you through implementing:
+
+    A standard 52-card deck initialization (using strings like "2H", "KD", "AS")
+    Support for Python's built-in operations:
+        Indexing (deck[0])
+        Length checking (len(deck))
+        Iteration (for card in deck)
+        Membership testing ("AS" in deck)
+    A shuffle method to randomize card order
