@@ -1,0 +1,9 @@
+Challenge
+Medium
+
+In this challenge, you'll implement a class decorator that adds method call tracking functionality.
+
+    decorator.py - Implement the add_counter class decorator
+    calculator.py - Contains the classes that will use your decorator
+
+The driver.py file contains extensive test scenarios that will validate your implementation against various use cases, inheritance patterns, and edge cases. You don't need to modify this file, but examining it will help you understand the expected behavior.
