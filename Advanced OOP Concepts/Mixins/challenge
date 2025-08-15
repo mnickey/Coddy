@@ -1,0 +1,13 @@
+Challenge
+Medium
+
+In this challenge, you'll implement a simple e-commerce system using mixins and inheritance.
+
+Implement the required classes in these files (follow the TODO comments in each file):
+
+    printablemixin.py - Create the PrintableMixin with formatted output functionality
+    discountmixin.py - Implement the DiscountMixin for price reduction calculations
+    shippablemixin.py - Build the ShippableMixin for weight and shipping cost features
+    product.py - Develop the base Product class with appropriate mixin inheritance
+    physicalproduct.py - Create the PhysicalProduct class extending Product
+    digitalproduct.py - Implement the DigitalProduct class with special discount behavior
