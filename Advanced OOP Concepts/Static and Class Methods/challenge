@@ -1,0 +1,10 @@
+Challenge
+Easy
+
+In this challenge, you'll implement a Temperature class with specific functionality while leveraging a comprehensive testing framework.
+
+You need to edit only the temperature.py file, following the TODO comments that guide your implementation. The class should include:
+
+    A class variable to track temperature readings
+    A static method for temperature conversion
+    Class methods for adding readings and calculating averages
