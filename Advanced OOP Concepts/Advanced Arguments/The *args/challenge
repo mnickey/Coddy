@@ -1,0 +1,11 @@
+Challenge
+Easy
+
+In this challenge, you'll implement a flexible number utility function.
+
+Edit the number_utils.py file to implement the sum_all_numbers function that accepts any number of numeric arguments and returns their sum. The function should:
+
+    Return 0 if no arguments are provided
+    Print "Error: All arguments must be numbers" and return None if any non-numeric arguments are provided
+
+The number_utils.py file contains detailed TODO comments to guide your implementation. Follow these comments carefully to ensure your solution meets all requirements.
