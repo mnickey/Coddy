@@ -1,0 +1,13 @@
+Challenge
+Easy
+
+In this challenge, you'll implement a context manager class that measures elapsed time between entering and exiting a context block.
+
+    timer.py - Contains the Timer class implementation (this is the file you'll edit)
+    driver.py - Contains comprehensive test cases (do not modify)
+
+Implement the Timer context manager in timer.py following the TODO comments. The class should:
+
+    Record start time when entering a context
+    Record end time when exiting
+    Calculate and display the elapsed time
