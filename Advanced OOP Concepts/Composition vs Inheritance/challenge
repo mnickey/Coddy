@@ -1,0 +1,14 @@
+Challenge
+Medium
+
+In this challenge, you'll implement a media library system using both inheritance and composition patterns.
+
+You need to edit the following files, following the TODO comments within each:
+
+    media.py, book.py, movie.py, musicalbum.py - For the inheritance implementation
+    mediaitem.py, bookcomposition.py, moviecomposition.py, musicalbumcomposition.py - For the composition implementation
+
+Each media type should have:
+
+    Title, creator (author/director/artist), and year attributes
+    Appropriate display_info() method
