@@ -1,0 +1,6 @@
+Challenge
+Easy
+
+In this challenge, you'll implement a person creation system with comprehensive test coverage.
+
+You need to edit only the person_creator.py file, following the TODO comments that guide your implementation. The file contains a class structure for creating and managing person objects with various properties.
