@@ -1,0 +1,7 @@
+Challenge
+Easy
+
+In this challenge, you'll implement the Singleton design pattern for a database connection class.
+
+    Edit databaseconnection.py to implement the Singleton pattern following the TODO comments
+    The driver.py file contains extensive test scenarios and should not be modified
