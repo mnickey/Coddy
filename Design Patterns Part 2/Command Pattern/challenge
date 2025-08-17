@@ -1,0 +1,14 @@
+Challenge
+Easy
+
+In this challenge, you'll implement the Command class in command.py following object-oriented principles. The file contains detailed TODO comments guiding your implementation step-by-step.
+
+Only modify command.py according to the TODO comments.
+
+Your implementation will be thoroughly tested by driver.py, which contains comprehensive test scenarios including:
+
+    Basic functionality validation
+    Edge cases (empty inputs, boundary values)
+    Inheritance and polymorphism validation
+    Method behavior under various conditions
+    Proper encapsulation and attribute access
