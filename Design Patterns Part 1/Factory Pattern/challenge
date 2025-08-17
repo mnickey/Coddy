@@ -1,0 +1,14 @@
+Challenge
+Medium
+
+In this challenge, you'll implement a shape factory system using proper object-oriented design with inheritance and polymorphism.
+
+Complete the implementation in the following files:
+
+    shape.py - Base Shape class
+    circle.py - Circle implementation
+    rectangle.py - Rectangle implementation
+    triangle.py - Triangle implementation
+    shapefactory.py - Factory class to create shapes
+
+Each file contains detailed TODO comments to guide your implementation. Follow these comments carefully to ensure your code meets all requirements.
