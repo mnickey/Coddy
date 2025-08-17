@@ -1,0 +1,15 @@
+Challenge
+Medium
+
+In this challenge, you will implement the Adapter design pattern to integrate legacy systems with a modern application architecture. The Adapter pattern allows objects with incompatible interfaces to work together by creating a wrapper (adapter) that translates one interface to another.
+
+ 
+
+Your company has a legacy data analysis and visualization system that needs to be integrated with a new modern analytics platform. The legacy components have interfaces that are incompatible with the new system. Instead of rewriting the legacy code (which would be risky and expensive), you've been tasked with creating adapters to make these components work with the new system.
+
+You need to:
+
+    Understand the modern interfaces defined in interfaces.py (this file cannot be modified)
+    Examine the legacy components in legacy_system.py (this file cannot be modified)
+    Implement adapter classes in adapters.py that make the legacy components compatible with the modern interfaces
+    Create a modern system in modern_system.py that uses these interfaces
