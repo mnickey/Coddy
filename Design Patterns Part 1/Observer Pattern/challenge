@@ -1,0 +1,20 @@
+Challenge
+Medium
+
+Implement the Observer Pattern by creating a weather monitoring system. Your task is to:
+
+    Create a WeatherStation class that extends the Subject class
+        Add a private attribute to track the current temperature
+        Implement set_temperature(temperature) to update the temperature and notify observers
+        Implement get_temperature() to return the current temperature
+    Create a WeatherDisplay class that extends the Observer class
+        Each display should have a name
+        When notified of a temperature change, it should display a message
+
+The message format for temperature updates should be exactly:
+
+Display [name]: Current temperature is [temperature]C
+
+For example: Display Phone: Current temperature is 25.5C
+
+Your solution should allow multiple displays to observe a single weather station, and displays should be able to be added or removed from the station's notification list.
