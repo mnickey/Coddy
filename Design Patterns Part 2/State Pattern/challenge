@@ -1,0 +1,6 @@
+Challenge
+Easy
+
+In this challenge, you'll implement the State class in state.py with proper encapsulation and methods. The file contains detailed TODO comments to guide your implementation step-by-step.
+
+The test suite is designed to verify your implementation meets all requirements and handles exceptional conditions correctly. Use the test results to understand expected behavior and refine your solution.
