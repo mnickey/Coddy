@@ -1,0 +1,16 @@
+Challenge
+Medium
+
+In this challenge, you will implement the Decorator design pattern to create a flexible coffee ordering system for a coffee shop. The Decorator pattern allows behavior to be added to individual objects dynamically, without affecting the behavior of other objects from the same class.
+
+You're building a system for a coffee shop that needs to:
+
+    Offer various types of beverages (Espresso, Dark Roast, House Blend, Decaf)
+    Allow customers to add condiments (Milk, Mocha, Soy, Whipped Cream) to their beverages
+    Calculate the cost of beverages with added condiments
+    Manage orders and calculate total costs
+
+    Complete the abstract Beverage class and its concrete implementations
+    Implement the CondimentDecorator abstract class and concrete decorators
+    Create a CoffeeShop class to manage orders
+    Implement test scenarios to verify your implementation
