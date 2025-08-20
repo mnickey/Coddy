@@ -1,0 +1,12 @@
+Challenge
+Medium
+
+In this challenge, you'll implement a library management system with borrowing functionality.
+
+Implement the required functionality in the following files:
+
+    book.py - Contains Book class definition
+    user.py - Contains User class definition
+    library.py - Contains Library class where you'll implement the borrow_book method
+
+Follow the TODO comments in each file for step-by-step implementation guidance. The borrow_book method should handle various scenarios including book/user not found and availability checks.
