@@ -1,0 +1,25 @@
+Challenge
+Medium
+
+In this challenge, you will implement a file system structure using the Composite design pattern. The Composite pattern allows you to compose objects into tree structures to represent part-whole hierarchies, treating individual objects and compositions of objects uniformly.
+
+The Composite pattern consists of:
+
+    Component: An abstract class that defines the common interface for all concrete classes
+    Leaf: Represents end objects of a composition with no sub-elements
+    Composite: Defines behavior for components having children and stores child components
+
+You will implement a file system with:
+
+    An abstract FileSystemComponent class (Component)
+    A File class (Leaf)
+    A Directory class (Composite)
+    A FileSystem class to manage the overall structure
+
+    Implement the abstract base class with appropriate abstract methods
+    Create concrete implementations for files and directories
+    Ensure directories can contain both files and other directories
+    Implement recursive operations like size calculation and display
+    Add path-based operations for adding, removing, and finding components
+    Handle error cases appropriately
+    Ensure proper encapsulation of component properties
