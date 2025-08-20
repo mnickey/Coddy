@@ -1,0 +1,9 @@
+Challenge
+Medium
+
+In this challenge, you'll implement the foundation for a Library Management System.
+
+Edit library.py to implement the required classes following the TODO comments. The driver file contains extensive test scenarios that validate your implementation.
+
+    Follow the TODO comments in library.py for step-by-step guidance
+    Implement the Library class with proper initialization and string representation
