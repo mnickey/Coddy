@@ -1,0 +1,12 @@
+Challenge
+Medium
+
+In this challenge, you'll implement a library management system with book search functionality.
+
+You'll work with three editable files:
+
+    book.py - Contains the Book class definition
+    user.py - Contains the User class definition
+    library.py - Contains the Library class where you'll implement search functionality
+
+Follow the TODO comments in each file to implement the required functionality. Your main task is to add a search_by_title method to the Library class that performs case-insensitive searches on book titles.
