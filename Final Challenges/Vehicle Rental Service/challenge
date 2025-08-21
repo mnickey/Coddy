@@ -1,0 +1,12 @@
+Challenge
+Medium
+
+In this challenge, you'll implement a vehicle rental system. The system models vehicles, rentals, and a rental agency with proper inheritance and encapsulation.
+
+    vehicle.py - Implement the base Vehicle class
+    car.py - Implement the Car subclass
+    motorcycle.py - Implement the Motorcycle subclass
+    rental.py - Implement the Rental class
+    rentalagency.py - Implement the RentalAgency class
+
+Each file contains detailed TODO comments guiding your implementation. Follow these comments to ensure your code meets all requirements.
