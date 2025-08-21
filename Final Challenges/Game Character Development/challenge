@@ -1,0 +1,12 @@
+Challenge
+Medium
+
+In this challenge, you'll implement a multi-file RPG character system with comprehensive test coverage.
+
+    character.py - Implement the base Character class
+    warrior.py - Implement the Warrior subclass
+    mage.py - Implement the Mage subclass
+    rogue.py - Implement the Rogue subclass
+    ability.py - Implement the Ability class
+
+Each file contains detailed TODO comments guiding your implementation. Follow these comments to ensure your code meets all requirements.
