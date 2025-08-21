@@ -1,0 +1,8 @@
+Challenge
+Hard
+
+In this challenge, you'll implement an object-oriented e-learning platform system.
+
+    course.py - Implement the Course class
+    student.py - Implement the Student class
+    instructor.py - Implement the Instructor class
