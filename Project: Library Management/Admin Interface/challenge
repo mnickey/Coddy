@@ -1,0 +1,16 @@
+Challenge
+Medium
+
+In this challenge, you'll implement administrative functions for a library management system.
+
+You'll need to modify the library.py file to add a get_statistics method to the Library class that returns a dictionary with key statistics about the library's state. The implementation details are provided in TODO comments within the file.
+
+The statistics should include:
+
+    Total number of books
+    Available books count
+    Borrowed books count
+    Total users count
+    Number of users with borrowed books
+
+The book.py and user.py files contain pre-implemented classes that your solution will interact with. While you can review these files to understand the system structure, your implementation should focus on the library.py file.
