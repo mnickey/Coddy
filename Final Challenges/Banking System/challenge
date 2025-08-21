@@ -1,0 +1,12 @@
+Challenge
+Hard
+
+In this challenge, you'll build a banking system with multiple account types, transactions, and a central bank manager.
+
+Implement the banking system by completing the TODO items in these files:
+
+    transaction.py - Transaction class for recording financial activities
+    account.py - Abstract base Account class with common functionality
+    savingsaccount.py - SavingsAccount implementation with interest and minimum balance
+    checkingaccount.py - CheckingAccount implementation with overdraft capabilities
+    bank.py - Bank class to manage accounts and transfers
